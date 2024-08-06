@@ -1,10 +1,10 @@
 import React from 'react'
-import Footer from '../components/footer'
+import DataPrivacy from '@/components/common/DataPrivacy'
 
 const page = () => {
   return (
     <div>
-      <Footer/>
+      <DataPrivacy/>
     </div>
   )
 }
