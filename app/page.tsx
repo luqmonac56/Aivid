@@ -1,10 +1,12 @@
 "use client";
-import Footer from "./components/footer";
+import DataPrivacy from "@/components/common/DataPrivacy";
+// import Footer from "./components/footer";
 
 export default function Home() {
   return (
     <main>
-      <Footer />
+      {/* <Footer /> */}
+      <DataPrivacy/>
     </main>
   );
 }
